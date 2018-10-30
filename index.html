@@ -10,8 +10,10 @@
   <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
   <link rel="manifest" href="site.webmanifest">
 
-  <!-- Place favicon.ico in the root directory -->
-
+  	
+	<!-- END styling map -->
+	
+	<!-- Place favicon.ico in the root directory -->
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -54,9 +56,14 @@
 		<div class="ui hidden divider"></div>
 		<h3 class="ui header">Gallery</h3>
 		
-	<!-- footer -->
 
-	<!-- /footer -->
+	<!--The div element for the map -->
+		<footer>
+			<div class="footer item">
+				<a href="#map">Contact Us</a>
+				<div id="googleMap" style="width:100%;height:400px;"></div>
+			</div>
+		</footer>
 	<!--END Page Content Section -->
 	
   <!--[if lte IE 9]>
@@ -72,11 +79,10 @@
   <script src="js/main.js"></script>
 
   <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  <script>
-    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
-    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
-  </script>
-  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+  
+  <!-- Map-->
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBph73b2cqJdzW5AVX7P1qMy10uzUYnpwM&callback=myMap"></script>
+  <!-- END Map-->
   
 	<!-- semantic -->
 	
@@ -84,7 +90,7 @@
 	  src="https://code.jquery.com/jquery-3.1.1.min.js"
 	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
 	  crossorigin="anonymous"></script>
-	<script src="semantic/semantic.min.js"></script>
+	<script src="semantic/semantic.main.js"></script>
 </body>
 
 </html>
