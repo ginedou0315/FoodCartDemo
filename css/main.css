@@ -16,6 +16,8 @@ html {
     line-height: 1.4;
 }
 
+
+
 /*
  * Remove text-shadow in selection highlight:
  * https://twitter.com/miketaylr/status/12228805301
@@ -102,6 +104,8 @@ html, body {
     width:100%;
     padding:0;
 }
+
+
 section {
     display: block;
     background: #CFF;
@@ -156,6 +160,7 @@ section {
 /*=======================================
   GALLERY SECTION ANIMATION
   =======================================*/
+  
 * {
     box-sizing: border-box;
 	
@@ -184,17 +189,15 @@ section {
   SLIDER SECTION ANIMATION
   =======================================*/
 
-.img {
-	width: 400px;
-}	
+.mySlides {display:none;}
 
-
-
-
-
-
-
-
+/*=======================================
+  NAV section
+  =======================================*/
+  
+.menu {
+	padding: 5px;
+}
 
 
 /* ==========================================================================

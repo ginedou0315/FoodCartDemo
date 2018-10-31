@@ -10,6 +10,9 @@
   <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
   <link rel="manifest" href="site.webmanifest">
   <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css"/>
+  
+	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+	<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
 
   	
 	<!-- END styling map -->
@@ -23,7 +26,7 @@
 		
 			
 	<!-- navigation -->
-		<div class="ui secondary  menu">
+		<div class="ui menu">
 			<div class="header item">
 				<div class="company"><a href="#home">Our Company</a></div>
 			</div>
@@ -36,6 +39,9 @@
 				<a class="item" href="#gallery">
 				Gallery
 				</a>
+				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
+					<i class="fa fa-bars"></i>
+				</a>
 		  <div class="right menu">
 			<div class="item">
 			  <div class="ui icon input">
@@ -43,8 +49,9 @@
 				<i class="search link icon"></i>
 			  </div>
 			</div>
-		  </div>
-		</div>
+		  </div>	
+		</div>  
+		
 	<!--END NAV -->
 	
 
@@ -52,26 +59,15 @@
 
 		<section id="home">
 			<h3 class="ui header">Home</h3>
-
-				<div class="slider slider1">
-				  <div class="slides">
-					<div class="slide-item item1">
-						<img class="img" src="./img/img1.JPG" alt="First slide">
-					</div>
-					<div class="slide-item item2">
-						<img class="img" src="./img/img2.JPG" alt="First slide">
-					</div>
-					<div class="slide-item item3">
-						<img class="img" src="./img/img3.JPG" alt="First slide">
-					</div>
-					<div class="slide-item item4">
-						<img class="img" src="./img/img4.JPG" alt="First slide">
-					</div>
-					<div class="slide-item item5">
-						<img class="img" src="./img/img5.JPG" alt="First slide">
-					</div>					
-					</div>
-				  </div>
+			
+				<div class="w3-content w3-display-container" style="width:650px">
+				  <img class="mySlides" src="./img/img1.JPG" style="width:100%" alt="taco">
+				  <img class="mySlides" src="./img/img2.JPG" style="width:100%" alt="hamburger">
+				  <img class="mySlides" src="./img/img3.JPG" style="width:100%" alt="salad">
+				  <img class="mySlides" src="./img/img4.JPG" style="width:100%" alt="pizza">
+				  <img class="mySlides" src="./img/img5.JPG" style="width:100%" alt="sandwhich">
+					  <button class="w3-button w3-white w3-display-left" onclick="plusDivs(-1)">&#10094;</button>
+					  <button class="w3-button w3-white w3-display-right" onclick="plusDivs(1)">&#10095;</button>
 				</div>
 		</section>
 		
@@ -122,6 +118,7 @@
 			<div id="googleMap" style="width:100%;height:400px;"></div>
 		</section>
 
+		
 		<footer class="footer">This site created by students of the Tech Academy</footer>
 		
 	<!--END Page Content Section -->
@@ -144,17 +141,11 @@
 	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBph73b2cqJdzW5AVX7P1qMy10uzUYnpwM&callback=myMap"></script>
 	<!-- END Map-->
   
-	<!-- carousel script -->
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<script src="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/javascript<ntic.min.js"></script>
-	<script src="http://cdn.jsdelivr.net/jquery.glide/1.0.6/jquery.glide.min.js"></script>
-	<!-- END carousel script -->	
 	
-	<script
-	  src="https://code.jquery.com/jquery-3.1.1.min.js"
-	  integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8="
-	  crossorigin="anonymous"></script>
-	<script src="semantic/semantic.main.js"></script>
+	
+	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+
+	<script src="semantic/semantic.min.js"></script>
 </body>
 
 </html>
