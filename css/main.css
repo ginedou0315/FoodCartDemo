@@ -142,6 +142,17 @@ section {
     transform: scale(1.5); 
 }
 
+.footer {
+   position: fixed;
+   left: 0;
+   bottom: 0;
+   width: 100%;
+   height: 30px;
+   background-color: #eee;
+   color: black;
+   text-align: center;
+}
+
 /*=======================================
   GALLERY SECTION ANIMATION
   =======================================*/
@@ -154,7 +165,7 @@ section {
     float: left;
     width: 33.33%;
     padding: 5px;
-	border-radius: 25px;
+	
 }
 
 /* Clearfix (clear floats) */
@@ -169,7 +180,6 @@ section {
     -webkit-transform: scale(1.5); /* Safari 3-8 */
     transform: scale(1.5); 
 }
-
 
 
 
