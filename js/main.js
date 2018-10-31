@@ -1,5 +1,11 @@
 		
-
+	//carousel//
+	$('.slider').glide({
+	  autoplay: false,
+	  arrowsWrapperClass: 'slider-arrows',
+	  arrowRightText: '',
+	  arrowLeftText: ''
+	});
 		
 		
 		function myMap() {
