@@ -94,7 +94,7 @@ textarea {
 }
 
 /* ==========================================================================
-   Author's custom styles
+   Author's custom styles - Rosalina Lash
    ========================================================================== */
 html, body {
     margin: 0;
@@ -110,6 +110,11 @@ section {
     padding: 60px;
     padding-left: 120px;
     box-sizing:border-box;
+}
+
+#home {
+    background: #19FBF1;
+    font-size: 30px;
 }
 
 #about {
@@ -137,10 +142,33 @@ section {
     transform: scale(1.5); 
 }
 
+/*=======================================
+  GALLERY SECTION ANIMATION
+  =======================================*/
+* {
+    box-sizing: border-box;
+	
+}
 
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+	border-radius: 25px;
+}
 
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
 
-
+.column:hover {
+	 -ms-transform: scale(1.5); /* IE 9 */
+    -webkit-transform: scale(1.5); /* Safari 3-8 */
+    transform: scale(1.5); 
+}
 
 
 
