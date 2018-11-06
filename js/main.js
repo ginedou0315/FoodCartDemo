@@ -1,36 +1,22 @@
 		
 	//slide show//
-		var slideIndex = 1;
-		showDivs(slideIndex);
 
-		function plusDivs(n) {
-		  showDivs(slideIndex += n);
-		}
 
-		function showDivs(n) {
-		  var i;
-		  var x = document.getElementsByClassName("mySlides");
-		  if (n > x.length) {slideIndex = 1}    
-		  if (n < 1) {slideIndex = x.length}
-		  for (i = 0; i < x.length; i++) {
-			 x[i].style.display = "none";  
-		  }
-		  x[slideIndex-1].style.display = "block";  
-		}
 	
 	// END slide show//
 	
-	// Nav Function//
+// Nav Function//
 	
 	function myFunction() {
-    var x = document.getElementById("menu");
-    if (x.className === "menu") {
+    var x = document.getElementById("myTopnav");
+    if (x.className === "topnav") {
         x.className += " responsive";
     } else {
-        x.className = "menu";
+        x.className = "topnav";
     }
 }
-	// END Nav Function//		
+	
+// END Nav Function//		
 		
 		function myMap() {
 		var mapProp= {
@@ -39,7 +25,7 @@
 		};
 		var map=new google.maps.Map(document.getElementById("googleMap"),mapProp);
 		}
-		
+				
 
 		
 
