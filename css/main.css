@@ -117,6 +117,7 @@ body {
 .topnav {
   overflow: hidden;
   background-color: white;
+  padding: 5px;
 }
 
 .topnav a {
@@ -211,40 +212,48 @@ body {
   }
 
 }
-  
+   
 /* ==========================================================================
-   END TOP NAV - Rosalina Lash
+   SECTIONS - Rosalina Lash
    ========================================================================== */   
-
+   
 section {
     display: block;
     background: #CFF;
     height:100%;
     width:100%;
-    padding: 60px;
-    padding-left: 120px;
-    box-sizing:border-box;
+	box-sizing:border-box;
 }
+
 
 
 #about {
     background: #74BE98;
     font-size: 30px;
+	padding: 60px;
+    padding-left: 100px;
 }
 
 #menu {
     background: #BED28D;
     font-size: 30px;
+	padding: 60px;
+    padding-left: 100px;
 }
 #gallery {
     background: #95211D;
     color: #fff;
     font-size: 30px;
+	padding: 60px;
+    padding-left: 100px;
+
 }
 
 #contact {
-    background: #800080;
+    background: #fff;
     font-size: 30px;
+	padding: 10px;
+
 }
 
 
@@ -261,6 +270,7 @@ section {
    padding: 10px;
    
 }
+
 
 /*=======================================
   GALLERY SECTION ANIMATION
@@ -310,8 +320,68 @@ section {
 
   
 /*=======================================
-  slide show section
+  HOME slide show section
   =======================================*/
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: contain;
+  position: relative;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a border */
+.prev:hover, .next:hover {
+    border: 1px solid;
+    padding: 10px;
+  }
+
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+  
+  
+  
 
 /* ==========================================================================
    Helper classes
