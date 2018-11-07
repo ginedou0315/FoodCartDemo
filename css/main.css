@@ -135,12 +135,6 @@ body {
   color: black;
 }
 
-.company:hover {
-	 -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
-}
-
 .topnav .icon {
   display: none;
 }
@@ -379,7 +373,6 @@ img {vertical-align: middle;}
   from {opacity: .4} 
   to {opacity: 1}
 }
-  
   
   
 
