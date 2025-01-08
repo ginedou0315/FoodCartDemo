@@ -1,167 +1,173 @@
-<!doctype html>
+<!DOCTYPE html>
 <html class="no-js" lang="">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="x-ua-compatible" content="ie=edge" />
+    <title>Food Cart Demo</title>
+    <meta name="description" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css" />
+    <link rel="manifest" href="site.webmanifest" />
+    <link
+      rel="stylesheet"
+      href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css"
+    />
 
-<head>
-  <meta charset="utf-8">
-  <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>Food Cart Demo</title>
-  <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" type="text/css" href="semantic/semantic.min.css">
-  <link rel="manifest" href="site.webmanifest">
-  <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/semantic-ui/0.12.0/css/semantic.min.css"/>
-  
+    <meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type" />
 
-	<meta content="text/html; charset=iso-8859-2" http-equiv="Content-Type">
+    <!-- END styling map -->
 
-	
+    <!-- Place favicon.ico in the root directory -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-  	
-	<!-- END styling map -->
-	
-	<!-- Place favicon.ico in the root directory -->
-  <link rel="stylesheet" href="css/normalize.css">
-  <link rel="stylesheet" href="css/main.css">
+  <body>
+    <!-- navigation -->
 
-</head>
+    <div class="topnav" id="myTopnav">
+      <a href="#home" class="company">Our Company</a>
+      <a href="#menu">Menu</a>
+      <a href="#about">About</a>
+      <a href="#gallery">Gallery</a>
+      <input type="text" placeholder="Search..." name="search" />
+      <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+      </a>
+    </div>
 
-<body>
-		
-			
-	<!-- navigation -->
-	
-			<div class="topnav" id="myTopnav">
-				<a href="#home" class="company">Our Company</a>
-				<a href="#menu">Menu</a>
-				<a href="#about">About</a>
-				<a href="#gallery">Gallery</a>
-					<input type="text" placeholder="Search..." name="search">
-				<a href="javascript:void(0);" class="icon" onclick="myFunction()">
-					<i class="fa fa-bars"></i>
-				</a>								  
-			</div>
-					
-	<!--END NAV -->
-	
+    <!--END NAV -->
 
-	<!--Home SlideShow Section -->
-	
-	
-		<section id="home">
-			<div class="slideshow-container">
+    <!--Home SlideShow Section -->
 
-				<div class="mySlides fade">
-					<img src="./img/img1.jpg" alt="food" class="slideimg">
-				  </div>
+    <section id="home">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img src="./img/img1.jpg" alt="food" class="slideimg" />
+        </div>
 
-				<div class="mySlides fade">
-				  <img src="./img/img2.jpg" alt="food" class="slideimg">
-				 </div>
+        <div class="mySlides fade">
+          <img src="./img/img2.jpg" alt="food" class="slideimg" />
+        </div>
 
-				<div class="mySlides fade">
-				  <img src="./img/img3.jpg" alt="food" class="slideimg">
-				</div>
-				
-				<div class="mySlides fade">
-				  <img src="./img/img4.jpg" alt="food" class="slideimg">
-				</div>
-				
-				<div class="mySlides fade">
-				  <img src="./img/img5.jpg" alt="food" class="slideimg">
-				</div>				
+        <div class="mySlides fade">
+          <img src="./img/img3.jpg" alt="food" class="slideimg" />
+        </div>
 
-				<a class="prev" onclick="plusSlides(-1)">&#10094;</a>
-				<a class="next" onclick="plusSlides(1)">&#10095;</a>
+        <div class="mySlides fade">
+          <img src="./img/img4.jpg" alt="food" class="slideimg" />
+        </div>
 
-			</div>
-		</section>
-	
-		<section id="menu">
-			<h3 class="ui header">Menu</h3>
-		</section>
-		<section id="about">
-			<h3 class="ui header">About</h3>
-		</section>
-		
-		<!-- GALLERY Section -->
+        <div class="mySlides fade">
+          <img src="./img/img5.jpg" alt="food" class="slideimg" />
+        </div>
 
-		<section id="gallery">
-		
-			<div class="container">
-				<h3 class="ui header">Gallery</h3>
-					<div class="flex-container">
-		
-		<!-- PHOTO-CONTAINER 1 - 3 -->
-		
-						<div class="row">
-							<div class="column">			
-								<img src="./img/img6.jpg" alt="food" class="galleryimg">
-							</div>
-							<div class="column">
-								<img src="./img/img7.jpg" alt="food" class="galleryimg">
-							  </div>
-							<div class="column">
-								<img src="./img/img8.jpg" alt="food" class="galleryimg">
-							</div>
-						</div>
-						
-						<!-- PHOTO-CONTAINER 3 - 6 -->
-						<div class="row">
-							<div class="column">
-								<img src="./img/img9.jpg" alt="food" class="galleryimg">
-							</div>
-							<div class="column">
-								<img src="./img/img10.jpg" alt="food" class="galleryimg">
-							  </div>
-							<div class="column">
-								<img src="./img/img11.jpg" alt="food" class="galleryimg">
-							</div>
-						</div>
-						<!-- END PHOTO-CONTAINER 3 - 6 -->	
-					</div>
-			</div>
-	
-		</section>
-	</div>		
-		<section id="contact">
-			<h3 class="ui header">Contact Us</h3>
-			<div id="googleMap" class="map"></div>
-		</section>
-		
-		<footer class="footer">This site created by students of the Tech Academy</footer>
-		
-	<!--END Page Content Section -->
-	
-  <!--[if lte IE 9]>
-    <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
-  <![endif]-->
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+      </div>
+    </section>
 
-  <!-- Add your site or application content here -->
+    <section id="menu">
+      <h3 class="ui header">Our Menu</h3>
+      <p>
+        We serve the best burgers and delicious pizzas in the town. In order to
+        compile our ranking of the 101 best burgers and pizzas in America, we
+        assembled a list of hundreds of beloved burgers from all across the
+        country and compiled them into a survey.
+      </p>
+    </section>
+    <section id="about">
+      <h3 class="ui header">Meet the Chef</h3>
+    </section>
 
-  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
-  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
-  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
-  <script src="js/plugins.js"></script>
-  <script src="js/plugins.js"></script>
-  <script src="js/main.js"></script>
- 
+    <!-- GALLERY Section -->
 
-	<!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
-  
-	<!-- Map-->
+    <section id="gallery">
+      <div class="container">
+        <h3 class="ui header">Gallery</h3>
+        <div class="flex-container">
+          <!-- PHOTO-CONTAINER 1 - 3 -->
 
-	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBph73b2cqJdzW5AVX7P1qMy10uzUYnpwM&callback=myMap"></script>
-	<!-- END Map-->
-  
-	
-	
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+          <div class="row">
+            <div class="column">
+              <img src="./img/img6.jpg" alt="food" class="galleryimg" />
+            </div>
+            <div class="column">
+              <img src="./img/img7.jpg" alt="food" class="galleryimg" />
+            </div>
+            <div class="column">
+              <img src="./img/img8.jpg" alt="food" class="galleryimg" />
+            </div>
+          </div>
 
-	<script src="semantic/semantic.min.js"></script>
+          <!-- PHOTO-CONTAINER 3 - 6 -->
+          <div class="row">
+            <div class="column">
+              <img src="./img/img9.jpg" alt="food" class="galleryimg" />
+            </div>
+            <div class="column">
+              <img src="./img/img10.jpg" alt="food" class="galleryimg" />
+            </div>
+            <div class="column">
+              <img src="./img/img11.jpg" alt="food" class="galleryimg" />
+            </div>
+          </div>
+          <!-- END PHOTO-CONTAINER 3 - 6 -->
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <h3 class="ui header">Contact Us</h3>
+      <div id="googleMap" class="map"></div>
+    </section>
 
-	
-	
-</body>
+    <footer class="footer">Food cart website</footer>
 
+    <!--END Page Content Section -->
+
+    <!--[if lte IE 9]>
+      <p class="browserupgrade">
+        You are using an <strong>outdated</strong> browser. Please
+        <a href="https://browsehappy.com/">upgrade your browser</a> to improve
+        your experience and security.
+      </p>
+    <![endif]-->
+
+    <!-- Add your site or application content here -->
+
+    <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.min.js"
+      integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+      crossorigin="anonymous"
+    ></script>
+    <script>
+      window.jQuery ||
+        document.write(
+          '<script src="js/vendor/jquery-3.3.1.min.js"><\/script>'
+        );
+    </script>
+    <script src="js/plugins.js"></script>
+    <script src="js/plugins.js"></script>
+    <script src="js/main.js"></script>
+
+    <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+
+    <!-- Map-->
+
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBph73b2cqJdzW5AVX7P1qMy10uzUYnpwM&callback=myMap"></script>
+    <!-- END Map-->
+
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+
+    <script src="semantic/semantic.min.js"></script>
+  </body>
 </html>
