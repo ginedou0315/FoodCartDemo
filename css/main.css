@@ -11,12 +11,10 @@
    ========================================================================== */
 
 html {
-    color: #222;
-    font-size: 1em;
-    line-height: 1.4;
+  color: #222;
+  font-size: 1em;
+  line-height: 1.4;
 }
-
-
 
 /*
  * Remove text-shadow in selection highlight:
@@ -29,13 +27,13 @@ html {
  */
 
 ::-moz-selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #7278da;
+  text-shadow: none;
 }
 
 ::selection {
-    background: #b3d4fc;
-    text-shadow: none;
+  background: #b3d4fc;
+  text-shadow: none;
 }
 
 /*
@@ -43,12 +41,12 @@ html {
  */
 
 hr {
-    display: block;
-    height: 1px;
-    border: 0;
-    border-top: 1px solid #ccc;
-    margin: 1em 0;
-    padding: 0;
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #ccc;
+  margin: 1em 0;
+  padding: 0;
 }
 
 /*
@@ -63,7 +61,7 @@ iframe,
 img,
 svg,
 video {
-    vertical-align: middle;
+  vertical-align: middle;
 }
 
 /*
@@ -71,9 +69,9 @@ video {
  */
 
 fieldset {
-    border: 0;
-    margin: 0;
-    padding: 0;
+  border: 0;
+  margin: 0;
+  padding: 0;
 }
 
 /*
@@ -81,7 +79,7 @@ fieldset {
  */
 
 textarea {
-    resize: vertical;
+  resize: vertical;
 }
 
 /* ==========================================================================
@@ -89,20 +87,20 @@ textarea {
    ========================================================================== */
 
 .browserupgrade {
-    margin: 0.2em 0;
-    background: #ccc;
-    color: #000;
-    padding: 0.2em 0;
+  margin: 0.2em 0;
+  background: #ccc;
+  color: #000;
+  padding: 0.2em 0;
 }
 
 /* ==========================================================================
    Author's custom styles - Rosalina Lash
    ========================================================================== */
 html {
-    margin: 0;
-    height:100%;
-    width:100%;
-    padding:0;
+  margin: 0;
+  height: 100%;
+  width: 100%;
+  padding: 0;
 }
 
 /* ==========================================================================
@@ -111,17 +109,15 @@ html {
 
 body {
   margin: 0;
-
 }
-
 
 .topnav {
   overflow: hidden;
-  background-color: white;
+  background-color: #dac0a3;
   padding: 5px;
   position: fixed;
   width: 100%;
-  font-family:Lucida Sans Unicode, Lucida Grande, sans-serif;
+  font-family: Lucida Sans Unicode, Lucida Grande, sans-serif;
 }
 
 .topnav a {
@@ -135,7 +131,7 @@ body {
 }
 
 .topnav a:hover {
-  background-color: #ddd;
+  background-color: #eadbc8;
   color: black;
 }
 
@@ -144,8 +140,12 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav a:not(:first-child) {display: none;}
-  .topnav input[type=text]:not(:first-child) {display: none;}
+  .topnav a:not(:first-child) {
+    display: none;
+  }
+  .topnav input[type="text"]:not(:first-child) {
+    display: none;
+  }
   .topnav a.icon {
     float: right;
     display: block;
@@ -153,180 +153,157 @@ body {
 }
 
 @media screen and (max-width: 600px) {
-  .topnav.responsive {position: relative;}
+  .topnav.responsive {
+    position: relative;
+  }
   .topnav.responsive .icon {
     position: absolute;
     right: 0;
     top: 0;
   }
-  .topnav.responsive a, .topnav.responsive input[type=text] {
+  .topnav.responsive a,
+  .topnav.responsive input[type="text"] {
     float: none;
     display: block;
     text-align: left;
   }
 }
 
-
 /* ==========================================================================
    SEARCH BAR- Rosalina Lash
-   ========================================================================== */  
-   
+   ========================================================================== */
 
-
-.topnav input[type=text] {
+.topnav input[type="text"] {
   padding: 6px;
   margin-top: 8px;
   font-size: 17px;
-  border: 1px solid #ccc; 
+  border: 1px solid #ccc;
   float: right;
 }
 
-
-
-   
-   
 /* ==========================================================================
    SECTIONS - Rosalina Lash
-   ========================================================================== */   
-   
+   ========================================================================== */
+
 section {
-    display: block;
-    background: #CFF;
-    height:auto;
-    width:100%;
-	box-sizing:border-box;
-	
+  display: block;
+  background: #6482af;
+  height: auto;
+  width: 100%;
+  box-sizing: border-box;
 }
 
 #home {
-  
-    font-size: 30px;
-	
+  font-size: 30px;
 }
 
-
 #about {
-    background: #74BE98;
-    font-size: 30px;
-	padding: 60px;
-    padding-left: 100px;
-	
+  background: #f8f0e5;
+  font-size: 30px;
+  padding: 60px;
+  padding-left: 100px;
 }
 
 #menu {
-    background: #BED28D;
-    font-size: 30px;
-	padding: 60px;
-    padding-left: 100px;
+  background: #eadbc8;
+  font-size: 30px;
+  padding: 60px;
+  padding-left: 100px;
 }
 #gallery {
-    background: #95211D;
-    color: #fff;
-    font-size: 30px;
-	padding: 60px;
-    padding-left: 100px;
-	
-
+  background: #6482af;
+  color: #fff;
+  font-size: 30px;
+  padding: 60px;
+  padding-left: 100px;
 }
 
 #contact {
-    background: #fff;
-    font-size: 30px;
-	padding: 10px;
-
+  background: #fff;
+  font-size: 30px;
+  padding: 10px;
 }
 
-
 .footer {
-   position: fixed;
-   left: 0;
-   bottom: 0;
-   width: 100%;
-   height: 30px;
-   background-color: #eee;
-   color: black;
-   text-align: center;
-   
-   padding: 10px;
-   
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  height: 30px;
+  background-color: #eee;
+  color: black;
+  text-align: center;
+
+  padding: 10px;
 }
 
 .map {
-	width:100%;
-	height:400px;
-	}
+  width: 100%;
+  height: 400px;
+}
 
 /*=======================================
   GALLERY SECTION ANIMATION
   =======================================*/
 
-  
 * {
-    box-sizing: border-box;
-	
+  box-sizing: border-box;
 }
 
 .column {
-    float: left;
-    width: 33.33%;
-    padding: 5px;
-	
-	}
-.galleryimg {
-	width:100%;
+  float: left;
+  width: 33.33%;
+  padding: 5px;
 }
-	
+.galleryimg {
+  width: 100%;
+}
+
 /* Clearfix (clear floats) */
 .row::after {
-    content: "";
-    clear: both;
-    display: table;
+  content: "";
+  clear: both;
+  display: table;
 }
 
 .column:hover {
-	 -ms-transform: scale(1.5); /* IE 9 */
-    -webkit-transform: scale(1.5); /* Safari 3-8 */
-    transform: scale(1.5); 
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5);
 }
 
 @media only screen and (max-width: 700px) {
-    .column {
-        width: 49.99999%;
-        margin: 6px 0;
-		overflow: hidden;
-    }
+  .column {
+    width: 49.99999%;
+    margin: 6px 0;
+    overflow: hidden;
+  }
 }
 
 @media only screen and (max-width: 500px) {
-    .column {
-        width: 100%;
-		overflow: hidden;
-    }
+  .column {
+    width: 100%;
+    overflow: hidden;
+  }
 }
- 
 
-  
 /*=======================================
   HOME slide show section
   =======================================*/
-  
 
-        .slideshow-container {
-            display: grid;
-            height: 100%;
-			
-        }
-        .slideimg {
-            max-width: 100%;
-            max-height: 100vh;
-            margin: auto;
-			
-			
-        }
-
+.slideshow-container {
+  display: grid;
+  height: 100%;
+}
+.slideimg {
+  max-width: 100%;
+  max-height: 100vh;
+  margin: auto;
+}
 
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
   position: absolute;
   top: 50%;
@@ -347,11 +324,11 @@ section {
 }
 
 /* On hover, add a border */
-.prev:hover, .next:hover {
-    border: 1px solid;
-    padding: 10px;
-  }
-
+.prev:hover,
+.next:hover {
+  border: 1px solid;
+  padding: 10px;
+}
 
 /* Fading animation */
 .fade {
@@ -362,16 +339,22 @@ section {
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
 
 @keyframes fade {
-  from {opacity: .4} 
-  to {opacity: 1}
+  from {
+    opacity: 0.4;
+  }
+  to {
+    opacity: 1;
+  }
 }
-  
-  
 
 /* ==========================================================================
    Helper classes
@@ -382,7 +365,7 @@ section {
  */
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
 
 /*
@@ -395,15 +378,15 @@ section {
  */
 
 .visuallyhidden {
-    border: 0;
-    clip: rect(0 0 0 0);
-    height: 1px;
-    margin: -1px;
-    overflow: hidden;
-    padding: 0;
-    position: absolute;
-    width: 1px;
-    white-space: nowrap; /* 1 */
+  border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;
+  white-space: nowrap; /* 1 */
 }
 
 /*
@@ -414,13 +397,13 @@ section {
 
 .visuallyhidden.focusable:active,
 .visuallyhidden.focusable:focus {
-    clip: auto;
-    height: auto;
-    margin: 0;
-    overflow: visible;
-    position: static;
-    width: auto;
-    white-space: inherit;
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
+  white-space: inherit;
 }
 
 /*
@@ -428,7 +411,7 @@ section {
  */
 
 .invisible {
-    visibility: hidden;
+  visibility: hidden;
 }
 
 /*
@@ -445,12 +428,12 @@ section {
 
 .clearfix:before,
 .clearfix:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .clearfix:after {
-    clear: both;
+  clear: both;
 }
 
 /* ==========================================================================
@@ -460,14 +443,14 @@ section {
    ========================================================================== */
 
 @media only screen and (min-width: 35em) {
-    /* Style adjustments for viewports that meet the condition */
+  /* Style adjustments for viewports that meet the condition */
 }
 
 @media print,
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 1.25dppx),
-       (min-resolution: 120dpi) {
-    /* Style adjustments for high resolution devices */
+  (-webkit-min-device-pixel-ratio: 1.25),
+  (min-resolution: 1.25dppx),
+  (min-resolution: 120dpi) {
+  /* Style adjustments for high resolution devices */
 }
 
 /* ==========================================================================
@@ -477,71 +460,71 @@ section {
    ========================================================================== */
 
 @media print {
-    *,
-    *:before,
-    *:after {
-        background: transparent !important;
-        color: #000 !important; /* Black prints faster */
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important;
-        text-shadow: none !important;
-    }
+  *,
+  *:before,
+  *:after {
+    background: transparent !important;
+    color: #000 !important; /* Black prints faster */
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    text-shadow: none !important;
+  }
 
-    a,
-    a:visited {
-        text-decoration: underline;
-    }
+  a,
+  a:visited {
+    text-decoration: underline;
+  }
 
-    a[href]:after {
-        content: " (" attr(href) ")";
-    }
+  a[href]:after {
+    content: " (" attr(href) ")";
+  }
 
-    abbr[title]:after {
-        content: " (" attr(title) ")";
-    }
+  abbr[title]:after {
+    content: " (" attr(title) ")";
+  }
 
-    /*
+  /*
      * Don't show links that are fragment identifiers,
      * or use the `javascript:` pseudo protocol
      */
 
-    a[href^="#"]:after,
-    a[href^="javascript:"]:after {
-        content: "";
-    }
+  a[href^="#"]:after,
+  a[href^="javascript:"]:after {
+    content: "";
+  }
 
-    pre {
-        white-space: pre-wrap !important;
-    }
-    pre,
-    blockquote {
-        border: 1px solid #999;
-        page-break-inside: avoid;
-    }
+  pre {
+    white-space: pre-wrap !important;
+  }
+  pre,
+  blockquote {
+    border: 1px solid #999;
+    page-break-inside: avoid;
+  }
 
-    /*
+  /*
      * Printing Tables:
      * http://css-discuss.incutio.com/wiki/Printing_Tables
      */
 
-    thead {
-        display: table-header-group;
-    }
+  thead {
+    display: table-header-group;
+  }
 
-    tr,
-    img {
-        page-break-inside: avoid;
-    }
+  tr,
+  img {
+    page-break-inside: avoid;
+  }
 
-    p,
-    h2,
-    h3 {
-        orphans: 3;
-        widows: 3;
-    }
+  p,
+  h2,
+  h3 {
+    orphans: 3;
+    widows: 3;
+  }
 
-    h2,
-    h3 {
-        page-break-after: avoid;
-    }
+  h2,
+  h3 {
+    page-break-after: avoid;
+  }
 }
